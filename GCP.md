@@ -12,7 +12,7 @@ app=Flask(__name__)
 
 @app.route('/')
 
-def helo_youtue():
+def helo_youtube():
 
     target = os.environ.get('Target',  'HELLO YOUTUBE!!') 
     
